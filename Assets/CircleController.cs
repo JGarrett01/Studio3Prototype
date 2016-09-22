@@ -22,10 +22,8 @@ public class CircleController : MonoBehaviour
     void OnMouseDown()
     {
         Destroy(this.gameObject);
-    }       
-            
-               
-            
-          
+    }
+
+      
 }
   
