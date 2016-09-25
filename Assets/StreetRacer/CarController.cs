@@ -8,6 +8,7 @@ public class CarController : MonoBehaviour {
     private Vector3 mousePos;
     public float moveSpeed = 0.2f;
 
+  
 
 	// Use this for initialization
 	void Start () {
@@ -27,6 +28,8 @@ public class CarController : MonoBehaviour {
         transform.position = Camera.main.ViewportToWorldPoint(pos);
 
         score++;
+
+        
 
        
     }

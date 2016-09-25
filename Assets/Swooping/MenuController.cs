@@ -14,4 +14,19 @@ public class MenuController : MonoBehaviour {
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void StartSwoopGame()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void StartRaceGame()
+    {
+        SceneManager.LoadScene(2);
+    }
 }

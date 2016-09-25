@@ -5,7 +5,7 @@ public class CivilianScript : MonoBehaviour
 {
 
     public float moveSpeed;
-   
+    public float deathTimer = 5f;
 
     // Use this for initialization
     void Start()
@@ -18,9 +18,13 @@ public class CivilianScript : MonoBehaviour
     {
 
         transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
-      
 
-       
+        deathTimer -= Time.deltaTime;
+
+        if (deathTimer <= 0)
+        {
+            Destroy(this.gameObject);
+        }
 
 
     }
