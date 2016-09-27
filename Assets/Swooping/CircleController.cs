@@ -34,8 +34,8 @@ public class CircleController : MonoBehaviour
 
     void OnMouseDown()
     {
-        Destroy(this.gameObject);
         gameController.score++;
+        Destroy(this.gameObject);
     }
 
       

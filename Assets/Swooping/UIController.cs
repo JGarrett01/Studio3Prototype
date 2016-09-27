@@ -10,6 +10,8 @@ public class UIController : MonoBehaviour {
     public GameController gameController;
     public CircleController circleController;
 
+    public int score;
+
 	// Use this for initialization
 	void Start ()
     {
@@ -19,7 +21,7 @@ public class UIController : MonoBehaviour {
 	void Update () {
 
         hpText.text = playerController.health.ToString("Health: " + playerController.health);
-        scoreText.text = gameController.score.ToString("Score: " + gameController.score);
+        scoreText.text = ("Score: " + score);
 	
 	}
 }

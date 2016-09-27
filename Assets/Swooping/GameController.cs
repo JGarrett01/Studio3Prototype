@@ -11,6 +11,8 @@ public class GameController : MonoBehaviour {
     public Transform SecondSpawnpoint;
     public Transform ThirdSpawnpoint;
 
+    public UIController UIController;
+
     public bool canSpawn = true;
     public int score;
     private int spawnPoint;
@@ -25,6 +27,8 @@ public class GameController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        UIController.score = score;
 
         if (player == null)
         {
@@ -46,10 +50,10 @@ public class GameController : MonoBehaviour {
         //-----------------------------------------------------------
 
 
-        if (GameObject.FindGameObjectsWithTag ("Circle") == null)
-        {
-            score++;
-        }
+        //if (GameObject.FindGameObjectsWithTag ("Circle") == null)
+        //{
+        //    score++;
+        //}
         
 	}
 
