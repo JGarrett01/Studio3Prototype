@@ -29,4 +29,14 @@ public class MenuController : MonoBehaviour {
     {
         SceneManager.LoadScene(2);
     }
+
+    public void StartSubGame()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    public void StartTapGame()
+    {
+        SceneManager.LoadScene(4);
+    }
 }

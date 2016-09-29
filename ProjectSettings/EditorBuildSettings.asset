@@ -11,3 +11,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SwoopingPrototype.unity
   - enabled: 1
     path: Assets/Scenes/StreetRacer.unity
+  - enabled: 1
+    path: Assets/Scenes/diveydive.unity
+  - enabled: 1
+    path: Assets/ReactionGame/Reaction Game.unity

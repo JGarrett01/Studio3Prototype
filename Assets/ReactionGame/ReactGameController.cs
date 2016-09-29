@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class WalkController : MonoBehaviour {
+public class ReactGameController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -9,8 +9,7 @@ public class WalkController : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update ()
-    {
-        
+	void Update () {
+	
 	}
 }
